@@ -1,4 +1,7 @@
+/* eslint-disable require-jsdoc */
 export default class Book {
-	title = '';
-	author = '';
+  constructor() {
+    this.title = '';
+    this.author = '';
+  }
 }

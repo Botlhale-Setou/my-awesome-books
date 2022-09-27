@@ -1,17 +1,20 @@
+/* eslint-disable require-jsdoc */
 import Book from './Book.js';
 
 export default class BookLibrary {
-	arrBooks = [];
+  constructor() {
+    this.arrBooks = [];
 
-	add = (title, author) => {
-		let temp = new Book;
-		temp.title = title;
-		temp.author = author;
-		this.arrBooks.push(temp);
-	}
+    this.add = (title, author) => {
+      const temp = new Book;
+      temp.title = title;
+      temp.author = author;
+      this.arrBooks.push(temp);
+    };
 
-	remove = (index) => {
-		this.arrBooks.splice(index, 1);
-		console.log(this.arrBooks);
-	}
+    this.remove = (index) => {
+      this.arrBooks.splice(index, 1);
+      console.log(this.arrBooks);
+    };
+  }
 }
