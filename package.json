@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Botlhale-Setou/my-awesome-books/issues"
   },
-  "homepage": "https://github.com/Botlhale-Setou/my-awesome-books#readme"
+  "homepage": "https://github.com/Botlhale-Setou/my-awesome-books#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-google": "^0.14.0"
+  }
 }
