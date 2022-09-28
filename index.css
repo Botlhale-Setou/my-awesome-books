@@ -1,0 +1,173 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 97vh;
+  padding: 0.7rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border: 3px solid black;
+}
+
+.nav-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.nav-btns {
+  display: flex;
+  align-items: center;
+  max-height: 2rem;
+  gap: 1rem;
+}
+
+.nav-btn {
+  display: none;
+}
+
+.nav-radio-label {
+  font-size: 1.03rem;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem;
+}
+
+input[type=radio]:checked + span {
+  color: blue;
+}
+
+.nav-divider {
+  width: 2px;
+  height: 1.9rem;
+  background-color: black;
+  border: none;
+}
+
+.clock {
+  font-weight: 600;
+  text-align: right;
+  margin: 0.1rem 0 3rem;
+}
+
+.list-tab {
+  display: none;
+}
+
+.add-new-tabb {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+.books-ph {
+  max-height: 50vh;
+  overflow-y: scroll;
+  border: 3px solid black;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+}
+
+.books-ph::-webkit-scrollbar {
+  display: none;
+}
+
+.book-container {
+  display: flex;
+  padding: 0.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-container:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.book-title {
+  font-weight: 700;
+  line-height: 2.2rem;
+  margin: 0;
+}
+
+.remove-btn {
+  font-weight: 700;
+  font-size: 1.08rem;
+  height: 2rem;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 70%;
+  gap: 1rem;
+  margin: auto;
+}
+
+.input {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 0.3rem;
+  font-size: 1.06rem;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.input-btn {
+  width: 4rem;
+  align-self: end;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 0.3rem;
+  background-color: white;
+  font-size: 1.06rem;
+  font-weight: 600;
+}
+
+.contact-tab {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.contact-question,
+.contact-list-item {
+  font-size: 1.06rem;
+  font-weight: 700;
+}
+
+.contact-list-item {
+  text-align: left;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-self: end;
+  bottom: 0.7rem;
+  padding: 0.5rem 2rem;
+  border: 3px solid black;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 0.5rem;
+}

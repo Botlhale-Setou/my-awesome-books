@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <nav class="navigation">
+          <p class="nav-title">Awesome Books</p>
+          <div class="nav-btns">
+            <label class="nav-radio-label" for="listRadio" id="listLabel">
+              <input name="nav-radio" type="radio" id="listRadio" class="nav-btn">
+              </input>
+              <span>List</span>
+            </label>
+            <hr class="nav-divider">
+            <label class="nav-radio-label" for="addNewRadio" id="addNewLabel">
+              <input name="nav-radio" type="radio" id="addNewRadio" class="nav-btn"></input>
+              <span>Add new</span>
+            </label>  
+            <hr class="nav-divider">
+            <label class="nav-radio-label" for="contactRadio" id="contactLabel">
+              <input name="nav-radio" type="radio" id="contactRadio" class="nav-btn"></input>
+              <span>Contact</span>
+            </label>    
+          </div>
+        </nav>
+      </header>
+      <div id="clock" class="clock">
+      </div>
+
+      <section id="listTab" class="list-tab">
+        <h1>Awesome books</h1>
+        <div class="books-ph" id="book"></div>
+      </section>
+
+      <section id="addNewTab" class="add-new-tab">
+        <h2>Add a new book</h2>
+        <div class="input-container">
+          <input class="input" id="title" type="text" placeholder="Title" />
+          <input class="input" id="author" type="text" placeholder="Author" />
+          <button id="addBtn" class="input-btn" type="button">
+            Add
+          </button>
+        </div>
+      </section>
+      <section id="contactTab" class="contact-tab">
+        <h2 class="contact-title">Contact Inforamtion</h2>
+        <span class="contact-question">Do you have any questions or you just want ot say "Hello"?<br> you can reach out to us!</span>
+        <ul>
+          <li class="contact-list-item">Our e-mail: mail@mail.com</li>
+          <li class="contact-list-item">Our phone number: 00123456789</li>
+          <li class="contact-list-item">Our address: Streetname 22, 84503 City, Country</li>
+        </ul>
+      </section>
+      <footer class="footer">
+        <p>copyright</p>
+      </footer>
+    </div>
+    
+  </body>
+</html>

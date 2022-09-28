@@ -1,0 +1,24 @@
+{
+  "name": "my-awesome-books",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Botlhale-Setou/my-awesome-books.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Botlhale-Setou/my-awesome-books/issues"
+  },
+  "homepage": "https://github.com/Botlhale-Setou/my-awesome-books#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
